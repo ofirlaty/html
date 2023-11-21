@@ -1,0 +1,49 @@
+
+body{
+   background-image: url("images/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;  
+  font-family:Arial;  
+}
+h1{background-color:yellow;display:inline;color:GrayText;}
+
+.bar{
+	list-style-type: none;
+    padding: 8px;
+	margin:0;
+	width: 300px;
+	background-color: #f1f1f1;
+	float:right;
+	
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+	margin:0;
+	
+}
+.active {
+  background-color: #04AA6D;
+color: white;}
+  li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+
+}
+li {
+    margin-bottom: 10px;
+	display: inline;
+}
+
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+	color: #fff;
+}
+
+span {
+    color: #fff;
+}
